@@ -1,14 +1,18 @@
 import Button from '../../components/Button';
 import logo from '../../assets/img/nubdexchange_logo.png';
+import unique1 from '../../assets/img/unique1.jpg';
+import unique2 from '../../assets/img/unique2.jpg';
+import unique3 from '../../assets/img/unique3.jpg';
+import unique4 from '../../assets/img/unique4.png';
 
 const AboutPage = () => {
   return (
     <div className="flex w-full flex-col gap-6">
-      <section className="border-y-2 border-zinc-900 bg-zinc-50 px-4 py-6 sm:px-6 sm:py-8 lg:px-8">
+      <section className="border-y-2 border-dark-gold-700 bg-dark-gold-50 px-4 py-6 sm:px-6 sm:py-8 lg:px-8">
         <div className="grid gap-8 lg:grid-cols-2 lg:items-center">
-          <div className="rounded-3xl border-2 border-dashed border-zinc-300 bg-zinc-100 p-6">
-            <div className="flex min-h-72 items-center justify-center rounded-[1.25rem] bg-zinc-200">
-              <img src={logo} alt="BulldogEx" className="h-32 w-32 rounded-full border-2 border-zinc-900 bg-zinc-50 object-contain" />
+          <div className="rounded-3xl border-2 border-dashed border-dark-gold-300 bg-dark-gold-100 p-6">
+            <div className="flex min-h-72 items-center justify-center rounded-[1.25rem] bg-dark-gold-200">
+              <img src={logo} alt="BulldogEx" className="h-full w-full max-h-[18rem] rounded-full object-cover" />
             </div>
           </div>
 
@@ -33,7 +37,7 @@ const AboutPage = () => {
         </div>
       </section>
 
-      <section className="border-y-2 border-zinc-900 bg-zinc-50 px-4 py-6 sm:px-6 sm:py-8 lg:px-8">
+      <section className="border-y-2 border-dark-gold-700 bg-dark-gold-50 px-4 py-6 sm:px-6 sm:py-8 lg:px-8">
         <div className="mb-6">
           <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-zinc-500">
             Store Overview
@@ -42,25 +46,25 @@ const AboutPage = () => {
         </div>
 
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-          <div className="rounded-3xl border-2 border-zinc-900 bg-zinc-100 p-5">
+          <div className="rounded-3xl border-2 border-dark-gold-700 bg-dark-gold-100 p-5">
             <p className="text-2xl font-bold text-zinc-900">08</p>
             <p className="mt-2 text-[11px] font-semibold uppercase tracking-[0.24em] text-zinc-500">
               Items
             </p>
           </div>
-          <div className="rounded-3xl border-2 border-zinc-900 bg-zinc-100 p-5">
+          <div className="rounded-3xl border-2 border-dark-gold-700 bg-dark-gold-100 p-5">
             <p className="text-2xl font-bold text-zinc-900">06</p>
             <p className="mt-2 text-[11px] font-semibold uppercase tracking-[0.24em] text-zinc-500">
               Categories
             </p>
           </div>
-          <div className="rounded-3xl border-2 border-zinc-900 bg-zinc-100 p-5">
+          <div className="rounded-3xl border-2 border-dark-gold-700 bg-dark-gold-100 p-5">
             <p className="text-2xl font-bold text-zinc-900">03</p>
             <p className="mt-2 text-[11px] font-semibold uppercase tracking-[0.24em] text-zinc-500">
               Pickup Slots
             </p>
           </div>
-          <div className="rounded-3xl border-2 border-zinc-900 bg-zinc-100 p-5">
+          <div className="rounded-3xl border-2 border-dark-gold-700 bg-dark-gold-100 p-5">
             <p className="text-2xl font-bold text-zinc-900">24</p>
             <p className="mt-2 text-[11px] font-semibold uppercase tracking-[0.24em] text-zinc-500">
               Orders
@@ -69,7 +73,7 @@ const AboutPage = () => {
         </div>
       </section>
 
-      <section className="border-y-2 border-zinc-900 bg-zinc-50 px-4 py-6 sm:px-6 sm:py-8 lg:px-8">
+      <section className="border-y-2 border-dark-gold-700 bg-dark-gold-50 px-4 py-6 sm:px-6 sm:py-8 lg:px-8">
         <div className="grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
           <div>
             <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-zinc-500">
@@ -78,21 +82,21 @@ const AboutPage = () => {
             <h2 className="mt-2 text-2xl font-semibold text-zinc-900">Stacked shopping wireframe</h2>
 
             <div className="mt-6 space-y-4">
-              <article className="rounded-3xl border-2 border-zinc-900 bg-zinc-100 p-5">
+              <article className="rounded-3xl border-2 border-dark-gold-700 bg-dark-gold-100 p-5">
                 <h3 className="text-lg font-semibold text-zinc-900">Curated Catalog</h3>
                 <p className="mt-3 text-sm leading-6 text-zinc-600">
                   Products are grouped by daily need so shoppers can scan faster.
                 </p>
               </article>
 
-              <article className="rounded-3xl border-2 border-zinc-900 bg-zinc-100 p-5">
+              <article className="rounded-3xl border-2 border-dark-gold-700 bg-dark-gold-100 p-5">
                 <h3 className="text-lg font-semibold text-zinc-900">Simple Checkout</h3>
                 <p className="mt-3 text-sm leading-6 text-zinc-600">
                   Product pages keep price, stock, and action buttons easy to find.
                 </p>
               </article>
 
-              <article className="rounded-3xl border-2 border-zinc-900 bg-zinc-100 p-5">
+              <article className="rounded-3xl border-2 border-dark-gold-700 bg-dark-gold-100 p-5">
                 <h3 className="text-lg font-semibold text-zinc-900">Pickup Ready</h3>
                 <p className="mt-3 text-sm leading-6 text-zinc-600">
                   Store information stays direct for students who need quick order updates.
@@ -101,22 +105,22 @@ const AboutPage = () => {
             </div>
           </div>
 
-          <div className="rounded-3xl border-2 border-zinc-900 bg-zinc-100 p-5">
+          <div className="rounded-3xl border-2 border-dark-gold-700 bg-dark-gold-100 p-5">
             <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-zinc-500">
               Category Grid
             </p>
             <div className="mt-5 grid gap-4 sm:grid-cols-2">
-              <div className="flex aspect-square items-center justify-center rounded-[1.25rem] bg-zinc-200">
-                <div className="h-12 w-12 border-2 border-zinc-300 bg-zinc-100" />
+              <div className="flex aspect-square items-center justify-center rounded-[1.25rem] bg-dark-gold-200">
+                <img src={unique1} alt="Category 1" className="h-full w-full rounded-lg border-2 border-dark-gold-300 object-cover" />
               </div>
-              <div className="flex aspect-square items-center justify-center rounded-[1.25rem] bg-zinc-200">
-                <div className="h-12 w-12 border-2 border-zinc-300 bg-zinc-100" />
+              <div className="flex aspect-square items-center justify-center rounded-[1.25rem] bg-dark-gold-200">
+                <img src={unique2} alt="Category 2" className="h-full w-full rounded-lg border-2 border-dark-gold-300 object-cover" />
               </div>
-              <div className="flex aspect-square items-center justify-center rounded-[1.25rem] bg-zinc-200">
-                <div className="h-12 w-12 border-2 border-zinc-300 bg-zinc-100" />
+              <div className="flex aspect-square items-center justify-center rounded-[1.25rem] bg-dark-gold-200">
+                <img src={unique3} alt="Category 3" className="h-full w-full rounded-lg border-2 border-dark-gold-300 object-cover" />
               </div>
-              <div className="flex aspect-square items-center justify-center rounded-[1.25rem] bg-zinc-200">
-                <div className="h-12 w-12 border-2 border-zinc-300 bg-zinc-100" />
+              <div className="flex aspect-square items-center justify-center rounded-[1.25rem] bg-dark-gold-200">
+                <img src={unique4} alt="Category 4" className="h-full w-full rounded-lg border-2 border-dark-gold-300 object-cover" />
               </div>
             </div>
             <Button to="/products" className="mt-5">View Products</Button>
@@ -128,3 +132,4 @@ const AboutPage = () => {
 };
 
 export default AboutPage;
+

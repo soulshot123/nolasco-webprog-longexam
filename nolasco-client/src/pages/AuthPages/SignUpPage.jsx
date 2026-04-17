@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import Button from '../../components/Button';
 
 const inputClasses =
-  'mt-2 w-full rounded-xl border border-zinc-300 bg-zinc-100 px-4 py-3 text-sm text-zinc-900 outline-none transition placeholder:text-zinc-400 focus:border-zinc-900 focus:bg-zinc-50';
+  'mt-2 w-full rounded-xl border border-dark-gold-300/50 bg-dark-gold-100 px-4 py-3 text-sm text-zinc-900 outline-none transition placeholder:text-zinc-400 focus:border-dark-gold-700 focus:bg-dark-gold-50';
 
 const actionButtonClassName = 'w-full rounded-xl py-3 text-[11px] tracking-[0.2em]';
 
@@ -45,14 +45,14 @@ const SignUpPage = () => {
         <div>
           <label htmlFor="signup-email" className="text-sm font-medium text-zinc-700">
             Email
-          </label>
-          <input
-            id="signup-email"
-            type="email"
-            placeholder="student@email.com"
-            autoComplete="email"
-            className={inputClasses}
-          />
+            </label>
+            <input
+              id="signup-email"
+              type="email"
+              placeholder="student@email.com"
+              autoComplete="email"
+              className={inputClasses}
+            />
         </div>
 
         <div>
@@ -85,7 +85,7 @@ const SignUpPage = () => {
         </div>
       </form>
 
-      <div className="mt-8 border-t border-zinc-200 pt-6 text-sm text-zinc-600">
+      <div className="mt-8 border-t border-dark-gold-300 pt-6 text-sm text-zinc-600">
         Already have an account?{' '}
         <Link to="/auth/signin" className="font-semibold text-zinc-900 transition hover:text-zinc-600">
           Log In

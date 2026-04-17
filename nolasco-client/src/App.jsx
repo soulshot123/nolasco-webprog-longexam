@@ -13,6 +13,8 @@ import SignInPage from './pages/AuthPages/SignInPage';
 import SignUpPage from './pages/AuthPages/SignUpPage';
 
 import NotFoundPage from './pages/NotFoundPage';
+import CartPage from './pages/LandingPages/CartPage';
+import PickupPage from './pages/LandingPages/PickupPage';
 
 const routes = [
   {
@@ -35,6 +37,14 @@ const routes = [
       {
         path: 'products/:name',
         element: <ProductPage />,
+      },
+      {
+        path: 'cart',
+        element: <CartPage />,
+      },
+      {
+        path: 'pickup',
+        element: <PickupPage />,
       },
     ],
   },

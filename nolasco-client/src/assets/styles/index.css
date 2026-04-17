@@ -1,11 +1,22 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+  --gold-50: #fdf8e8;
+  --gold-500: #D4AF37;
+  --gold-600: #B8860B;
+  --blue-500: #1E40AF;
+  --blue-600: #1E3A8A;
+  --bg-primary: #F8FAFC;
+  --text-primary: #1E293B;
+}
 
 @layer base {
   body {
-    @apply bg-zinc-100 text-zinc-900 antialiased;
+    @apply bg-[var(--bg-primary)] text-[var(--text-primary)] font-poppins antialiased;
   }
 
   #root {
-    @apply min-h-screen;
+    @apply min-h-screen font-poppins;
   }
 }
