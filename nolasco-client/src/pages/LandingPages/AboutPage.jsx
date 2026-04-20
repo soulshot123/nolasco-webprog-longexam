@@ -10,7 +10,7 @@ const AboutPage = () => {
     <div className="flex w-full flex-col gap-6">
       <section className="border-y-2 border-dark-gold-700 bg-dark-gold-50 px-4 py-6 sm:px-6 sm:py-8 lg:px-8">
         <div className="grid gap-8 lg:grid-cols-2 lg:items-center">
-          <div className="rounded-3xl border-2 border-dashed border-dark-gold-300 bg-dark-gold-100 p-6">
+          <div className="rounded-3xl border-2 border-dark-gold-300 bg-dark-gold-100 p-6">
             <div className="flex min-h-72 items-center justify-center rounded-[1.25rem] bg-dark-gold-200">
               <img src={logo} alt="BulldogEx" className="h-full w-full max-h-[18rem] rounded-full object-cover" />
             </div>
