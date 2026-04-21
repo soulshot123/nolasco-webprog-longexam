@@ -51,7 +51,7 @@ const HomePage = () => {
                 </div>
 
                 <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-                    <div className="group rounded-3xl border-2 border-dark-gold-600/50 bg-dark-gold-50/80 backdrop-blur-md p-8 shadow-xl hover:shadow-3xl transition-all duration-500 hover:scale-[1.02]">
+                    <div className="group rounded-3xl border-2 border-gold-500/70 bg-dark-gold-50/80 backdrop-blur-md p-8 shadow-xl hover:shadow-3xl transition-all duration-500 hover:scale-[1.02]">
                         <p className="text-4xl font-black text-black mb-3">
                             08
                         </p>
@@ -59,7 +59,7 @@ const HomePage = () => {
                             Products
                         </p>
                     </div>
-                    <div className="group rounded-3xl border-2 border-dark-gold-600/50 bg-dark-gold-50/80 backdrop-blur-md p-8 shadow-xl hover:shadow-3xl transition-all duration-500 hover:scale-[1.02]">
+                    <div className="group rounded-3xl border-2 border-gold-500/70 bg-dark-gold-50/80 backdrop-blur-md p-8 shadow-xl hover:shadow-3xl transition-all duration-500 hover:scale-[1.02]">
                         <p className="text-4xl font-black text-black mb-3">
                             07
                         </p>
@@ -67,7 +67,7 @@ const HomePage = () => {
                             Categories
                         </p>
                     </div>
-                    <div className="group rounded-3xl border-2 border-dark-gold-600/50 bg-dark-gold-50/80 backdrop-blur-md p-8 shadow-xl hover:shadow-3xl transition-all duration-500 hover:scale-[1.02]">
+                    <div className="group rounded-3xl border-2 border-gold-500/70 bg-dark-gold-50/80 backdrop-blur-md p-8 shadow-xl hover:shadow-3xl transition-all duration-500 hover:scale-[1.02]">
                         <p className="text-4xl font-black text-black mb-3">
                             156
                         </p>
@@ -75,7 +75,7 @@ const HomePage = () => {
                             Orders
                         </p>
                     </div>
-                    <div className="group rounded-3xl border-2 border-dark-gold-600/50 bg-dark-gold-50/80 backdrop-blur-md p-8 shadow-xl hover:shadow-3xl transition-all duration-500 hover:scale-[1.02]">
+                    <div className="group rounded-3xl border-2 border-gold-500/70 bg-dark-gold-50/80 backdrop-blur-md p-8 shadow-xl hover:shadow-3xl transition-all duration-500 hover:scale-[1.02]">
                         <p className="text-4xl font-black text-gold-700 mb-3">
                             12
                         </p>

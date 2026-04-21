@@ -12,7 +12,7 @@ const AboutPage = () => {
         <div className="grid gap-8 lg:grid-cols-2 lg:items-center">
           <div className="rounded-3xl border-2 border-dark-gold-300 bg-dark-gold-100 p-6">
             <div className="flex min-h-72 items-center justify-center rounded-[1.25rem] bg-dark-gold-200">
-              <img src={logo} alt="BulldogEx" className="h-full w-full max-h-[18rem] rounded-full object-cover" />
+              <img src={logo} alt="BulldogEx" className="50% max-h-[18rem] rounded-full object-cover" />
             </div>
           </div>
 
@@ -46,25 +46,25 @@ const AboutPage = () => {
         </div>
 
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-          <div className="rounded-3xl border-2 border-dark-gold-700 bg-dark-gold-100 p-5">
+          <div className="rounded-3xl border-2 border-gold-400 bg-dark-gold-100 p-5">
             <p className="text-2xl font-bold text-zinc-900">08</p>
             <p className="mt-2 text-[11px] font-semibold uppercase tracking-[0.24em] text-zinc-500">
               Items
             </p>
           </div>
-          <div className="rounded-3xl border-2 border-dark-gold-700 bg-dark-gold-100 p-5">
+          <div className="rounded-3xl border-2 border-gold-400 bg-dark-gold-100 p-5">
             <p className="text-2xl font-bold text-zinc-900">06</p>
             <p className="mt-2 text-[11px] font-semibold uppercase tracking-[0.24em] text-zinc-500">
               Categories
             </p>
           </div>
-          <div className="rounded-3xl border-2 border-dark-gold-700 bg-dark-gold-100 p-5">
+          <div className="rounded-3xl border-2 border-gold-400 bg-dark-gold-100 p-5">
             <p className="text-2xl font-bold text-zinc-900">03</p>
             <p className="mt-2 text-[11px] font-semibold uppercase tracking-[0.24em] text-zinc-500">
               Pickup Slots
             </p>
           </div>
-          <div className="rounded-3xl border-2 border-dark-gold-700 bg-dark-gold-100 p-5">
+          <div className="rounded-3xl border-2 border-gold-400 bg-dark-gold-100 p-5">
             <p className="text-2xl font-bold text-zinc-900">24</p>
             <p className="mt-2 text-[11px] font-semibold uppercase tracking-[0.24em] text-zinc-500">
               Orders
@@ -82,21 +82,21 @@ const AboutPage = () => {
             <h2 className="mt-2 text-2xl font-semibold text-zinc-900">Stacked shopping wireframe</h2>
 
             <div className="mt-6 space-y-4">
-              <article className="rounded-3xl border-2 border-dark-gold-700 bg-dark-gold-100 p-5">
+              <article className="rounded-3xl border-2 border-gold-400 bg-dark-gold-100 p-5">
                 <h3 className="text-lg font-semibold text-zinc-900">Curated Catalog</h3>
                 <p className="mt-3 text-sm leading-6 text-zinc-600">
                   Products are grouped by daily need so shoppers can scan faster.
                 </p>
               </article>
 
-              <article className="rounded-3xl border-2 border-dark-gold-700 bg-dark-gold-100 p-5">
+              <article className="rounded-3xl border-2 border-gold-400 bg-dark-gold-100 p-5">
                 <h3 className="text-lg font-semibold text-zinc-900">Simple Checkout</h3>
                 <p className="mt-3 text-sm leading-6 text-zinc-600">
                   Product pages keep price, stock, and action buttons easy to find.
                 </p>
               </article>
 
-              <article className="rounded-3xl border-2 border-dark-gold-700 bg-dark-gold-100 p-5">
+              <article className="rounded-3xl border-2 border-gold-400 bg-dark-gold-100 p-5">
                 <h3 className="text-lg font-semibold text-zinc-900">Pickup Ready</h3>
                 <p className="mt-3 text-sm leading-6 text-zinc-600">
                   Store information stays direct for students who need quick order updates.
@@ -105,22 +105,22 @@ const AboutPage = () => {
             </div>
           </div>
 
-          <div className="rounded-3xl border-2 border-dark-gold-700 bg-dark-gold-100 p-5">
+          <div className="rounded-3xl border-2 border-gold-400 bg-dark-gold-100 p-5">
             <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-zinc-500">
               Category Grid
             </p>
             <div className="mt-5 grid gap-4 sm:grid-cols-2">
               <div className="flex aspect-square items-center justify-center rounded-[1.25rem] bg-dark-gold-200">
-                <img src={unique1} alt="Category 1" className="h-full w-full rounded-lg border-2 border-dark-gold-300 object-cover" />
+                <img src={unique1} alt="Category 1" className="h-full w-full rounded-lg border-2 border-gold-300 object-cover" />
               </div>
               <div className="flex aspect-square items-center justify-center rounded-[1.25rem] bg-dark-gold-200">
-                <img src={unique2} alt="Category 2" className="h-full w-full rounded-lg border-2 border-dark-gold-300 object-cover" />
+                <img src={unique2} alt="Category 2" className="h-full w-full rounded-lg border-2 border-gold-300 object-cover" />
               </div>
               <div className="flex aspect-square items-center justify-center rounded-[1.25rem] bg-dark-gold-200">
-                <img src={unique3} alt="Category 3" className="h-full w-full rounded-lg border-2 border-dark-gold-300 object-cover" />
+                <img src={unique3} alt="Category 3" className="h-full w-full rounded-lg border-2 border-gold-300 object-cover" />
               </div>
               <div className="flex aspect-square items-center justify-center rounded-[1.25rem] bg-dark-gold-200">
-                <img src={unique4} alt="Category 4" className="h-full w-full rounded-lg border-2 border-dark-gold-300 object-cover" />
+                <img src={unique4} alt="Category 4" className="h-full w-full rounded-lg border-2 border-gold-300 object-cover" />
               </div>
             </div>
             <Button to="/products" className="mt-5">View Products</Button>

@@ -7,12 +7,18 @@
 
 :root {
   --gold-50: #fdf8e8;
-  --gold-500: #D4AF37;
-  --gold-600: #B8860B;
+  --gold-500: #fbbf24;
+  --gold-600: #f59e0b;
   --blue-500: #1E40AF;
   --blue-600: #1E3A8A;
-  --bg-primary: #F8FAFC;
-  --text-primary: #1E293B;
+  --blue-900: #1e1b4b;
+  --bg-primary: #fdf8e8;
+  --text-primary: #1E3A8A;
+
+  /* Footer-inspired gradient */
+  --footer-gradient: linear-gradient(to right, #1e3a8a, #1e40af, #fbbf24);
+  --footer-dark-gradient: linear-gradient(to right, #1e3a8a 0%, #1e40af 50%, #b45309 100%);
+  --card-gold-gradient: linear-gradient(to bottom right, var(--gold-50), rgba(251, 191, 36, 0.7));
 }
 
 @layer base {
@@ -24,3 +30,76 @@
     @apply min-h-screen font-poppins;
   }
 }
+
+@layer utilities {
+  /* Footer-style gradient for key sections */
+  div[class*="min-h-screen"], section[class*="min-h-screen"], footer {
+    background: var(--footer-gradient) !important;
+    color: #f8fafc !important; /* light text for dark bg */
+  }
+
+  /* Subtle footer harmony for cards/containers */
+  article.rounded-3xl, div.rounded-3xl:not([class*="min-h-screen"]) {
+    background: var(--card-gold-gradient) !important;
+    border-color: rgba(251, 191, 36, 0.6) !important;
+    color: var(--blue-600) !important;
+  }
+
+  /* Neutral overrides to gold/blue */
+  [class*="bg-zinc-"], [class*="bg-slate-"], [class*="bg-gray-"] {
+    background-color: var(--gold-50) !important;
+  }
+
+  [class*="text-zinc-"], [class*="text-slate-"], [class*="text-gray-"] {
+    color: var(--blue-600) !important;
+  }
+
+  /* Text accents */
+  h1, h2, h3 {
+    background-clip: text !important;
+    -webkit-background-clip: text !important;
+    background-image: linear-gradient(to right, var(--blue-500), var(--gold-500)) !important;
+    color: transparent !important;
+  }
+
+  /* Buttons gold/blue */
+  button, [class*="Button"] {
+    border-color: var(--gold-500) !important;
+    background: rgba(253, 248, 232, 0.9) !important;
+    color: var(--blue-600) !important;
+  }
+
+  /* Existing card overrides */
+  div article.rounded-3xl {
+    background: var(--card-gold-gradient) !important;
+    border-color: rgba(251, 191, 36, 0.5) !important;
+  }
+
+  div article.rounded-3xl:hover {
+    background: linear-gradient(to bottom right, #fbbf2480, var(--gold-50)) !important;
+  }
+
+  div article.rounded-3xl h3 {
+    color: var(--blue-500) !important;
+  }
+
+  div article.rounded-3xl p[class~="font-black"][class~="text-2xl"] {
+    color: var(--blue-600) !important;
+  }
+
+  div article.rounded-3xl p[class*="text-xs"] {
+    color: var(--blue-900) !important;
+  }
+
+  div article.rounded-3xl button, div article.rounded-3xl [class*="Button"] {
+    color: var(--blue-900) !important;
+    background-color: rgba(255,255,255,0.95) !important;
+    border-color: var(--blue-600) !important;
+  }
+
+  /* Image container */
+  div article.rounded-3xl div.aspect-\[4/3\] {
+    background: linear-gradient(to bottom right, rgba(30,64,175,0.1), rgba(251,191,36,0.1)) !important;
+  }
+}
+
